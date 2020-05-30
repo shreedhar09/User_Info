@@ -29,10 +29,10 @@ export class Login extends Component {
   };
 
   loginUser = () => {
-    debugger
+
     let jsdata = this.convertDatajsonIntoObject();
     console.log(jsdata);
-    //console.log(jsdata.firstName)
+
 
     if (this.validator.allValid()) {
       if(jsdata !== null){

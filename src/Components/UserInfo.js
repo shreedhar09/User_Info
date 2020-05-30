@@ -15,8 +15,7 @@ export class UserInfo extends Component {
   jsdata = this.convertDatajsonIntoObject();
   
   render() {
-    debugger
-    console.log("");
+   
     return (
       <div className="container">
         <div className="row">

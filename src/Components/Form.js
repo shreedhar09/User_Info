@@ -44,7 +44,6 @@ class Form extends Component {
   };
 
   submitInfo = () => {
-    debugger
     if (this.validator.allValid()) {
       let StoreJson = this.store();
       let ConvertoJson = JSON.stringify(StoreJson);
