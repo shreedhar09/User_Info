@@ -32,7 +32,7 @@ class EditModal extends React.Component {
       address: this.props.UserData.address,
       phone: this.state.phone,
       date: this.props.UserData.date,
-      email: this.props.UserData.email,
+      email: this.state.email,
       username: this.props.UserData.username,
       password: this.props.UserData.password
       
@@ -50,7 +50,6 @@ class EditModal extends React.Component {
       window.location.reload(false)
     } else {
       
-     // alert(this.validator.errorMessages.email,this.validator.errorMessages.lastname,this.validator.errorMessages.phone,this.validator.errorMessages.firstName)
       this.validator.showMessages();
       this.forceUpdate();
     }

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { RadioGroup, Radio } from "react-radio-group";
 import { Link } from "react-router-dom";
 import SimpleReactValidator from "simple-react-validator";
 
@@ -10,12 +9,9 @@ class Form extends Component {
     this.state = {
       firstName: "",
       lastname: "",
-      gender: "Male",
       address: "",
       phone: "",
-      date: "",
       email: "",
-      
       username: "",
       password: ""
       

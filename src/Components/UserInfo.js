@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import EditModel from "../Components/EditModal";
 export class UserInfo extends Component {
-  constructor(props) {
-    super(props);
-  }
-debugger
+  
   getDataFromLocalStorage = () => {
     let data = localStorage.getItem("StoreInfo");
     return data;
@@ -15,19 +11,12 @@ debugger
     let localStorageData = this.getDataFromLocalStorage();
     return JSON.parse(localStorageData);
   };
-debugger
-  jsdata = this.convertDatajsonIntoObject();
-  componentDidUpdate()
-  {
-      console.log("componentDidUpdate 1 ");
-  }
 
-  componentDidMount(){
-    console.log("componentDidUpdate 3 ");
-  }
+  jsdata = this.convertDatajsonIntoObject();
+  
   render() {
     debugger
-    console.log("componentDidUpdate 2 ");
+    console.log("");
     return (
       <div className="container">
         <div className="row">

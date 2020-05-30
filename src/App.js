@@ -3,8 +3,6 @@ import "./ComponentCSS/App.css";
 import Form from "./Components/Form";
 import Login from "./Components/Login";
 import {
-  BrowserRouter as Router,
-  Redirect,
   Route,
   Switch
 } from "react-router-dom";
@@ -14,7 +12,6 @@ import UserInfo from "./Components/UserInfo";
 class App extends Component {
 
   render() {
-    console.log("app app ");
     return (
       <div className="BG">
         <Navbar />

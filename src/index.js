@@ -5,7 +5,7 @@ import "./ComponentCSS/form.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router } from "react-router-dom"; //BrowserRouter Important
+import { BrowserRouter as Router } from "react-router-dom"; 
 
 ReactDOM.render(
   <Router>
