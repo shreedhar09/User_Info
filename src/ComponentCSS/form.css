@@ -1,0 +1,33 @@
+.dateSection {
+  margin-top: 15px;
+}
+.loginContainer {
+  padding: 50px 20px;
+  border-radius: 19px 19px 19px 19px;
+  -moz-border-radius: 19px 19px 19px 19px;
+  -webkit-border-radius: 19px 19px 19px 19px;
+  border: 7px solid #565656;
+
+  /*Transperent Card Because, didn't apply any color property */
+}
+.lblgender {
+  color: white;
+}
+.srv-validation-message {
+  color: white;
+}
+.heading {
+  color: white;
+  padding-bottom: 5px;
+}
+.mainTag {
+  text-align: center;
+  color: white;
+}
+.groupTogether {
+  padding: 30px 20px;
+  border-radius: 19px 19px 19px 19px;
+  -moz-border-radius: 19px 19px 19px 19px;
+  -webkit-border-radius: 19px 19px 19px 19px;
+  border: 7px solid #565656;
+}

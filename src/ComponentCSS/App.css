@@ -1,0 +1,13 @@
+.formcontent {
+  padding: 20px;
+}
+.logincontent {
+  padding: 20px;
+}
+.container {
+  padding-top: 30px;
+}
+.BG {
+  background: url(../Uploads/LoginBackGround.png) repeat;
+  min-height: 100vh;
+}
