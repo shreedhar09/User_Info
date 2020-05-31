@@ -35,12 +35,17 @@ export class Login extends Component {
 
 
     if (this.validator.allValid()) {
+      debugger
       if(jsdata !== null){
       let uName = this.state.usernameLogin;
       let uPass = this.state.passwordLogin;
       let uregi = jsdata.username;
       let upregi = jsdata.password;
-
+      jsdata.isLogin = true;
+      console.log("is login ",jsdata);
+      let ConvertoJson = JSON.stringify(jsdata);
+      localStorage.setItem("StoreInfo", ConvertoJson);
+      console.log(ConvertoJson);
       
       if (uName === uregi) {
         if (uPass === upregi) {

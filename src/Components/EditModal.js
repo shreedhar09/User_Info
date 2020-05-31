@@ -33,6 +33,7 @@ class EditModal extends React.Component {
       phone: this.state.phone,
       date: this.props.UserData.date,
       email: this.state.email,
+      isLogin: this.props.UserData.isLogin,
       username: this.props.UserData.username,
       password: this.props.UserData.password
       

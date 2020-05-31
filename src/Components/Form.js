@@ -50,7 +50,7 @@ class Form extends Component {
       localStorage.setItem("StoreInfo", ConvertoJson);
       console.log(ConvertoJson);
       alert("Registered successfully");
-      this.props.history.replace("/Login");
+   //   this.props.history.replace("/Login");
     } else {
       this.validator.showMessages();
       this.forceUpdate();
